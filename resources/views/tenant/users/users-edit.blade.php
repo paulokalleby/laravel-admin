@@ -76,10 +76,10 @@
                                 <span wire:loading wire:target="update">Atualizando...</span>
                             </button>
                             <a href="{{ route('users.index') }}" 
-                                class="btn btn-link text-muted"
-                                title="Voltar" 
+                                class="btn btn-light"
+                                title="Cancelar" 
                                 wire:navigate>
-                                Voltar
+                                Cancelar
                             </a>
                         </div>
                     </div>

@@ -71,10 +71,10 @@
                                 <span wire:loading wire:target="store">Salvando...</span>
                             </button>
                             <a href="{{ route('roles.index') }}" 
-                                title="Voltar"
-                                class="btn btn-link text-muted" 
+                                title="Cancelar"
+                                class="btn btn-light" 
                                 wire:navigate>
-                                Voltar
+                                Cancelar
                             </a>
                         </div>
                     </div>
