@@ -111,9 +111,7 @@
 
                 </div>
 
-                <div class="d-flex justify-content-center">
-                    {{ $roles->onEachSide(1)->links() }}
-                </div>
+                {{ $roles->links() }}
 
             @endif
 

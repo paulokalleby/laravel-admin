@@ -105,9 +105,7 @@
 
                 </div>
 
-                <div class="d-flex justify-content-center">
-                    {{ $users->onEachSide(1)->links() }}
-                </div>
+                {{ $users->links() }}
 
             @endif
         </div>
